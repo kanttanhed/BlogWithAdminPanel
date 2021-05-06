@@ -28,9 +28,8 @@ connection
     })
 
 app.get("/", (req, res) => {
-    res.send("index")
+    res.render("index");
 })
-
 
 
 app.listen(8080, ()=>{
